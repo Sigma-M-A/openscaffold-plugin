@@ -1,0 +1,44 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "openscaffold",
+  "version": "0.1.0",
+  "description": "The Deployment OS for deployment teams: your coding agent starts briefed on each customer, with their cited plan, rules and everything they said, and reports its work back.",
+  "author": {
+    "name": "OpenScaffold",
+    "url": "https://openscaffold.ai"
+  },
+  "homepage": "https://docs.openscaffold.ai",
+  "repository": "https://github.com/Sigma-M-A/openscaffold-plugin",
+  "license": "MIT",
+  "keywords": [
+    "forward-deployed-engineering",
+    "customer-deployments",
+    "requirements",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "OpenScaffold",
+        "shortDescription": "Your customer's cited plan and documents in your coding agent",
+        "longDescription": "The Deployment OS for deployment teams: your coding agent starts briefed on each customer, with their cited plan, rules and everything they said, and reports its work back.",
+        "developerName": "OpenScaffold",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://openscaffold.ai",
+        "privacyPolicyURL": "https://openscaffold.ai/privacy",
+        "termsOfServiceURL": "https://openscaffold.ai/terms",
+        "supportURL": "https://openscaffold.ai/support",
+        "defaultPrompt": [
+          "Use OpenScaffold to tell me what changed for this customer since my last session.",
+          "Use OpenScaffold to check my current diff against the customer's plan."
+        ],
+        "composerIcon": "./logo.png",
+        "logo": "./logo.png"
+      }
+    }
+  }
+}
