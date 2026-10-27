@@ -1,0 +1,16 @@
+{
+  "name": "openscaffold",
+  "displayName": "OpenScaffold",
+  "version": "0.1.0",
+  "description": "The Deployment OS for deployment teams: your coding agent starts briefed on each customer, with their cited plan, rules and everything they said, and reports its work back.",
+  "author": { "name": "OpenScaffold", "url": "https://openscaffold.ai" },
+  "homepage": "https://docs.openscaffold.ai",
+  "repository": "https://github.com/Sigma-M-A/openscaffold-plugin",
+  "license": "MIT",
+  "keywords": ["forward-deployed-engineering", "customer-deployments", "requirements", "mcp"],
+  "icon": "./logo.png",
+  "documentationUrl": "https://docs.openscaffold.ai",
+  "supportUrl": "https://docs.openscaffold.ai/agent-onboarding#troubleshooting",
+  "privacyPolicyUrl": "https://openscaffold.ai/privacy",
+  "termsOfServiceUrl": "https://openscaffold.ai/terms"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "openscaffold",
+  "description": "OpenScaffold for Claude Code",
+  "owner": { "name": "OpenScaffold", "url": "https://openscaffold.ai" },
+  "plugins": [
+    {
+      "name": "openscaffold",
+      "source": "./",
+      "description": "Your coding agent starts briefed on each customer deployment: cited plan, rules, people and everything the customer said."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "openscaffold": {
+      "type": "http",
+      "url": "https://app.openscaffold.ai/api/mcp/mcp"
+    }
+  }
+}
