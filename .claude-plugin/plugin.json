@@ -10,7 +10,7 @@
   "keywords": ["forward-deployed-engineering", "customer-deployments", "requirements", "mcp"],
   "icon": "./logo.png",
   "documentationUrl": "https://docs.openscaffold.ai",
-  "supportUrl": "https://docs.openscaffold.ai/agent-onboarding#troubleshooting",
+  "supportUrl": "https://openscaffold.ai/support",
   "privacyPolicyUrl": "https://openscaffold.ai/privacy",
   "termsOfServiceUrl": "https://openscaffold.ai/terms"
 }

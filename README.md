@@ -27,3 +27,7 @@ npx @openscaffold/cli@latest login
 It adds a session hook so each Claude Code session starts with the right customer's briefing, matched from your repo and branch. Without it, Claude asks which customer you're working on.
 
 Docs: [docs.openscaffold.ai](https://docs.openscaffold.ai)
+
+## Codex and ChatGPT
+
+The same skills and MCP server are packaged for OpenAI's plugin directory: `plugin.json` and `mcp.json` at the root. `./pack-openai.sh` builds the submission ZIP.
