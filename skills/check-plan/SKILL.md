@@ -1,6 +1,6 @@
 ---
 name: check-plan
-description: Check the current diff against the customer's plan and constraints (OpenScaffold)
+description: "Check the current diff against the customer's plan and constraints (OpenScaffold)"
 ---
 
 Review the current changes: run `git diff` and `git diff --staged`. Call `get_plan` and `get_profile`.

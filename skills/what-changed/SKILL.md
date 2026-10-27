@@ -1,6 +1,6 @@
 ---
 name: what-changed
-description: Summarize what changed for this customer since your last session (OpenScaffold)
+description: "Summarize what changed for this customer since your last session (OpenScaffold)"
 ---
 
 Call the openscaffold `what_changed` tool and summarize the result for the FDE in at most 10 bullets: plan changes first, then new documents, then pending proposals. Cite document titles.

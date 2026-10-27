@@ -1,6 +1,6 @@
 ---
 name: demo-check
-description: Prepare for a customer demo: what's done, partial or missing (OpenScaffold)
+description: "Prepare for a customer demo: what's done, partial or missing (OpenScaffold)"
 ---
 
 Call `get_plan`. For each in_scope item, look for evidence in this repo that it is done (code, tests, configs). List each item as done, partial or missing, with file references.

@@ -1,6 +1,6 @@
 ---
 name: requirements
-description: Find new or changed customer requirements and propose plan changes (OpenScaffold)
+description: "Find new or changed customer requirements and propose plan changes (OpenScaffold)"
 ---
 
 Call the openscaffold `what_changed` tool. Read every new document it lists with `get_document`. Compare what they say against `get_plan`.
